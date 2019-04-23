@@ -1,0 +1,55 @@
+@media (min-width: 550px)
+  .list-group-item
+    margin: 0
+
+.list-group-item
+  position: relative
+  width: 100%
+  box-sizing: border-box
+  display: inline-block
+  margin-bottom: 5px
+  text-decoration: none
+  border-radius: 3px
+  border: 1px solid #d1d1d1
+  img
+    float: left
+    width: 30%
+    height: 100%
+  span
+    box-sizing: border-box
+    width: 65%
+    display: block
+    margin-left: 35%
+    height: inherit
+    vertical-align: middle
+    padding: .5em
+    padding-top: 10%
+    font-size: 1.25em
+    line-height: 1.25em
+
+@media (min-width: 550px)
+  .list-group-item:hover img
+    transform: scale(1.1, 1.1)
+
+@media (min-width: 550px)
+  .list-group-item img
+    float: none
+    width: 200px
+    height: auto
+    display: block
+    margin: 0 auto
+    transition: transform 0.3s
+
+@media (min-width: 550px)
+  .list-group-item span
+    font-size: 2em
+    line-height: 1.25em
+    height: auto
+    width: auto
+    margin: 0
+    border-top: 1px solid #d1d1d1
+    padding: 1em
+    text-align: center
+    position: relative
+    z-index: 2
+    background-color: #fff
