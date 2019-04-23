@@ -1,10 +1,39 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import { connect } from "react-redux";
+import { Redirect } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import CountUp from 'react-countup';
+import Container from '../components/Container/Container';
 
-const Result = props => (
-    <div>
-        detail
-        {console.log(props.location.state.detail)}
-    </div>
+import './styles.sass';
+
+const Result = ({ literals, location }) => (
+    !location && !location.state && !location.state.detail ?
+    <Redirect to="/" />  :
+    <Container>
+        <div className="text-center">
+            <h2>
+                {literals.result && literals.result.male}
+                <span className="result"><CountUp end={70} /></span>
+                camels
+            </h2>
+
+            <Link to="/" className="button is-warning is-medium">Calculate again</Link>
+        </div>
+    </Container>
 );
 
-export default Result;
+Result.propTypes = {
+    location: PropTypes.shape({
+        state: PropTypes.shape({}).isRequired
+    }).isRequired
+};
+
+Result.defaultProps = {
+    literals: { result: { male: 'loading...'}}
+};
+
+const mapStateToProps = ({ literals = { result: { male: 'boy'}} }) => ({ literals });
+
+export default connect(mapStateToProps)(Result);

@@ -7,7 +7,7 @@ import Welcome from './pages/Welcome';
 
 const Routes = () => ([
     <Route key="welcome" exact path="/" component={Welcome} />,
-    <Route key="home" exact path="/home" component={Home}/>,
+    <Route key="gender" path="/(female|male)/" component={Home}/>,
     <Route key="result" exact path="/results" component={Result}/>,
 ]);
 
