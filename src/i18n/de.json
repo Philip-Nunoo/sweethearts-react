@@ -1,5 +1,11 @@
 {
     "welcome": {
-        "message": "de."
+        "message": "Hier können Sie berechnen, wie viele Kamele Ihre Freundin oder Ihr Freund wert ist. Aber zuerst brauchen wir Informationen über die Person.",
+        "selectGirlfriend": "Wie viele Kamele für deine Freundin",
+        "selectBoyfriend": "Wie viele Kamele für deinen Freund"
+    },
+    "result": {
+        "male": "Dein Freund ist es wert",
+        "female": "Deine Freundin ist es wert"
     }
 }

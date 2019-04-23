@@ -1,5 +1,11 @@
 {
     "welcome": {
-        "message": "es."
+        "message": "Aquí puedes calcular cuántos camellos vale tu novia o novio. Pero primero necesitamos algo de información sobre la persona.",
+        "selectGirlfriend": "Cuantos camellos para tu novia",
+        "selectBoyfriend": "Cuantos camellos para tu novio"
+    },
+    "result": {
+        "male": "Tu novio vale la pena",
+        "female": "Tu novia vale la pena"
     }
 }
