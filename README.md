@@ -66,3 +66,17 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+# Problem statement
+
+* Create a small Facebook Instant Game [1] using React. The game logic should be similar to [kamelrechner.eu](http://kamelrechner.eu/en/male). You can basically just clone the provided camel example or be creative with another topic. The UI should consist of the following elements:
+    * **Start Page:** Render a form with multiple inputs. Keep the form plain and simple, just focus on the code. The UI doesn’t have to look good. There is no need to add any images.
+  * **Result Page:** Depending on the provided inputs calculate and show the result. The result page should contain a share button to share the result via Facebook SDK share-button functionality [2].
+
+* Use a bundler like webpack to provide a zipped/minified/uglified version as well as a function to run the code in a staging/dev environment.
+* Don’t worry too much about CSS or general styling. Ideally integrate a CSS framework like bulma [3] to have basic styling possibilities available.
+* Write clean and professional code, ideally separate business logic from display logic
+* Provide us with a github/gitlab repository that includes all commits and code so we can see how you approached this test-task.
+Don’t spend more than 5 hours on this test-task. If you didn’t finish everything, just show us how far you got.
+* Last but not least: Have fun! :)
