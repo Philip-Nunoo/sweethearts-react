@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sweethearts-react/static/css/main.23fbcf1f.chunk.css",
-    "main.js": "/sweethearts-react/static/js/main.bdc678b8.chunk.js",
-    "main.js.map": "/sweethearts-react/static/js/main.bdc678b8.chunk.js.map",
+    "main.js": "/sweethearts-react/static/js/main.695cca1e.chunk.js",
+    "main.js.map": "/sweethearts-react/static/js/main.695cca1e.chunk.js.map",
     "runtime~main.js": "/sweethearts-react/static/js/runtime~main.191e6b94.js",
     "runtime~main.js.map": "/sweethearts-react/static/js/runtime~main.191e6b94.js.map",
     "static/js/2.fae1ea2e.chunk.js": "/sweethearts-react/static/js/2.fae1ea2e.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/5.fe5895ff.chunk.js": "/sweethearts-react/static/js/5.fe5895ff.chunk.js",
     "static/js/5.fe5895ff.chunk.js.map": "/sweethearts-react/static/js/5.fe5895ff.chunk.js.map",
     "index.html": "/sweethearts-react/index.html",
-    "precache-manifest.902e5ad6af0496e0a37321820298d2fa.js": "/sweethearts-react/precache-manifest.902e5ad6af0496e0a37321820298d2fa.js",
+    "precache-manifest.c58c6a4215f082618612567d167551ab.js": "/sweethearts-react/precache-manifest.c58c6a4215f082618612567d167551ab.js",
     "service-worker.js": "/sweethearts-react/service-worker.js",
     "static/css/main.23fbcf1f.chunk.css.map": "/sweethearts-react/static/css/main.23fbcf1f.chunk.css.map",
     "static/media/camel-logo-2.png": "/sweethearts-react/static/media/camel-logo-2.7aff1421.png",
