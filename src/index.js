@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import registerServiceWorker from 'utils/registerServiceWorker';
 
-import Home from 'pages/Home';
+import Home from 'pages/Home/Home';
 import Result from 'pages/Result';
 
 import "./index.sass";

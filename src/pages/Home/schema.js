@@ -1,9 +1,4 @@
-import React from 'react';
 import SimpleSchema from 'simpl-schema';
-import AutoForm from 'uniforms-bulma/AutoForm';
-import ErrorsField from 'uniforms-bulma/ErrorsField';
-import AutoField from 'uniforms-bulma/AutoField';
-import SubmitField from 'uniforms-bulma/SubmitField';
 
 const schema = new SimpleSchema({
     age: {
@@ -87,21 +82,4 @@ const schema = new SimpleSchema({
     },
 });
 
-const Home = () => (
-    <div>
-        <h4>Start page</h4>
-        <AutoForm schema={schema} onSubmit={doc => console.log(doc)}>
-            <ErrorsField />
-            <AutoField name="age" min={14}/>
-            <AutoField name="height" />
-            <AutoField name="hairColor" />
-            <AutoField name="hairLength" />
-            <AutoField name="eyeColor" />
-            <AutoField name="beardType" />
-            <AutoField name="bodyType" />
-            <SubmitField value="Calculate"/>
-        </AutoForm>
-    </div>
-);
-
-export default Home;
+export default schema;
