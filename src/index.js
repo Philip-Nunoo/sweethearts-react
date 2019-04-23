@@ -5,11 +5,13 @@ import registerServiceWorker from 'utils/registerServiceWorker';
 
 import Home from 'pages/Home/Home';
 import Result from 'pages/Result';
+import Header from './components/Header/Header';
 
 import "./index.sass";
 
 const App = () => (
     <Router>
+        <Header />
         <div>
             <Route exact path="/" component={Home} />
             <Route exact path="/results" component={Result} />

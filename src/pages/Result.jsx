@@ -1,8 +1,9 @@
 import React from 'react';
 
-const Result = () => (
+const Result = props => (
     <div>
-        Results page
+        detail
+        {console.log(props.location.state.detail)}
     </div>
 );
 
