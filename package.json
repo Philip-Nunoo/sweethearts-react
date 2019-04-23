@@ -8,6 +8,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.0.2",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
@@ -15,11 +16,11 @@
     "redux-thunk": "^2.3.0",
     "simpl-schema": "^1.5.5",
     "uniforms": "^1.31.1",
-    "uniforms-unstyled": "^1.31.1",
-    "uniforms-bulma": "file:/Users/phanunoo/Documents/projects/uniforms/packages/uniforms-bulma"
+    "uniforms-bulma": "file:/Users/phanunoo/Documents/projects/uniforms/packages/uniforms-bulma",
+    "uniforms-unstyled": "^1.31.1"
   },
   "scripts": {
-    "start": "NODE_PATH=./src PORT=5001 react-scripts start",
+    "start": "NODE_PATH=./src PORT=5002 react-scripts start",
     "build": "NODE_PATH=./src react-scripts build",
     "test": "NODE_PATH=./src react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

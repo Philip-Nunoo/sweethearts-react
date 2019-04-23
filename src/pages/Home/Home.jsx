@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from "react-redux";
 import AutoForm from 'uniforms-bulma/AutoForm';
 import ErrorsField from 'uniforms-bulma/ErrorsField';
 import AutoField from 'uniforms-bulma/AutoField';
@@ -31,4 +32,6 @@ const Home = (props) => (
     </Container>
 );
 
-export default Home;
+const mapStateToProps = ({ literals }) => ({ literals });
+
+export default connect(mapStateToProps)(Home);
