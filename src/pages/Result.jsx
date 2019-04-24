@@ -20,7 +20,7 @@ const Result = ({ literals, location }) => (
                 camels
             </h2>
             <p>
-                <ShareLink link={`${window.location.origin.toString()}`}>
+                <ShareLink link={`${process.env.PUBLIC_URL}`}>
                     {link => (
                         <a
                             href={link}
