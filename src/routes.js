@@ -9,6 +9,7 @@ const Routes = () => ([
     <Route key="welcome" exact path="/" component={Welcome} />,
     <Route key="gender" path="/(female|male)/" component={Home}/>,
     <Route key="result" exact path="/results" component={Result}/>,
+    <Route key="notFound" path="*" component={() => 'Not Found'}/>,
 ]);
 
 export default Routes;

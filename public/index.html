@@ -24,17 +24,29 @@
     <meta name="author" content="Philip Nunoo">
   </head>
   <body>
+    <!-- <script src="https://connect.facebook.net/en_US/fbinstant.6.2.js"></script>
+    <script type="text/javascript">
+      window.onload = function() {
+          // When the window loads, start to initialize the SDK
+          FBInstant.initializeAsync().then(function() {
+              // We can start to load assets
+
+              function loadScript() {
+                  console.log('loading script');
+                  return new Promise(function (resolve, reject) {
+                      var s;
+                      s = document.createElement('script');
+                      s.src = "/static/js/main.5e22890f.chunk.js"; // replace this everytime
+                      s.onload = resolve;
+                      s.onerror = reject;
+                      document.head.appendChild(s);
+                  });
+              }
+              loadScript().then(res => console.log(res)).catch(err => console.log(err));
+          });
+      };
+    </script> -->
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

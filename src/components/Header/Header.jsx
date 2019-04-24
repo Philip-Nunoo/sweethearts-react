@@ -14,6 +14,7 @@ const Header = props => {
 
     return (
         <header>
+            {console.log('process.env.PUBLIC_URL', process.env.PUBLIC_URL)}
             <Container>
                 <a href="/" className="logo">
                     <img src={require('../../images/camel-logo-2.png')} alt="logo" />

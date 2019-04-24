@@ -15,7 +15,7 @@ import "./index.sass";
 loadLang().then(lang => store.dispatch(loadLiterals(lang)));
 
 const App = props => (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <Provider store={store}>
             <Header />
             <Routes {...props}/>

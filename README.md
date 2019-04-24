@@ -38,7 +38,42 @@ The application is written as a *Single Page Application* with three main pages 
 ### Data Persistence
 Since this is a simple frontend application, all data is persisted using redux store and required no db connectivity.
 
+### Building project
+
+Since builds are mostly not pushed to github this is the official way to generate a working build for the project below.
+
+```sh
+$ npm i
+$ npm run build
+```
+
+after this, you should have a working folder called build where you would find your ```index.html```.
+
+1. You can install http-server to test the working build. Example
+
+```sh
+$ npm install -g http-server
+```
+
+2. Create a private key and a certificate via openssl. This is necessary to run the secure local server.
+
+```sh
+$ cd path/to/my/game/build
+$ openssl genrsa 2048 > key.pem
+$ openssl req -x509 -days 1000 -new -key key.pem -out cert.pem
+```
+
+3. Run the game from localhost with SSL. Once the key and certificate are ready, you can serve from localhost using SSL.
+
+```sh
+$ http-server --ssl -c-1 -p 8080 -a 127.0.0.1 
+```
+
+4. After this, pointing your browser to https://localhost:8080 should show you the game running.
+
+
+
+
 ### Nice to have
 * Save user response
 * User management
-* Share response with others
