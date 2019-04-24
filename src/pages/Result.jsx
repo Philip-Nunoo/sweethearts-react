@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { Redirect } from 'react-router-dom'
 import { Link } from 'react-router-dom';
 import CountUp from 'react-countup';
+import ShareLink from 'react-facebook-share-link';
 import Container from '../components/Container/Container';
 
 import './styles.sass';
@@ -18,6 +19,21 @@ const Result = ({ literals, location }) => (
                 <span className="result"><CountUp end={70} /></span>
                 camels
             </h2>
+            <p>
+                <ShareLink link={`${window.location.origin.toString()}`}>
+                    {link => (
+                        <a
+                            href={link}
+                            target='_blank'
+                            className="button is-warning is-medium"
+                            style={{ color: '#FFF', backgroundColor: '#305C98' }}
+                            rel='noopener noreferrer'
+                        >
+                            Share this on Facebook
+                        </a>
+                    )}
+                </ShareLink>
+            </p>
 
             <Link to="/" className="button is-warning is-medium">Calculate again</Link>
         </div>

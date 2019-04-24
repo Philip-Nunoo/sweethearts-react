@@ -27,7 +27,7 @@ A simple react app built with the following packages
 * **[redux v4.0.1](https://reduxframework.com/)**: Predictable state container for JavaScript apps.
 * **[simpl-schema v1.5.5](https://www.npmjs.com/package/simpl-schema)**: SimpleSchema validates JavaScript objects to ensure they match a schema.
 * **[uniforms v1.31.1](https://www.npmjs.com/package/uniforms)**: A set of React libraries for building forms.
-* **[uniforms-bulma]()**: (WIP) Bulma UI Components submitted by Me(Philip Afful Nunoo).
+* **[uniforms-bulma](https://github.com/philip-nunoo/uniforms)**: (WIP) Bulma UI Components submitted by Me(Philip Afful Nunoo).
 
 The application is written as a *Single Page Application* with three main pages just as [kamelrechner.eu](http://kamelrechner.eu) (with emphasizes on the male user).
 
