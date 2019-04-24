@@ -1,4 +1,7 @@
 {
+    "header": {
+        "title": "Kamel-Rechner"
+    },
     "welcome": {
         "message": "Hier können Sie berechnen, wie viele Kamele Ihre Freundin oder Ihr Freund wert ist. Aber zuerst brauchen wir Informationen über die Person.",
         "selectGirlfriend": "Wie viele Kamele für deine Freundin",

@@ -1,4 +1,7 @@
 {
+    "header": {
+        "title": "Camel Calculator"
+    },
     "welcome": {
         "message": "Here you can calculate how many camels your girlfriend or boyfriend is worth. But first we need some information about the person.",
         "selectGirlfriend": "How many camels for your girlfriend",

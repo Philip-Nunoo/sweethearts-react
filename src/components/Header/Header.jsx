@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
@@ -8,7 +9,7 @@ import loadLang from '../../i18n';
 
 import './style.sass';
 
-const Header = props => {
+const Header = ({ literals, ...props }) => {
     const changeLanguage = lang => (
         loadLang(lang).then(val => props.updateLanguage(val))
     );
@@ -20,7 +21,7 @@ const Header = props => {
                 <Link to="/" className="logo">
                     <img src={require('../../images/camel-logo-2.png')} alt="logo" />
                 </Link>
-                <h1>Camel Calculator</h1>
+                <h1>{literals.result && literals.header.title}</h1>
                 <div className="lang-select">
                     <a
                         className="is-link"
@@ -50,8 +51,9 @@ Header.propTypes = {
     updateLanguage: PropTypes.func.isRequired,
 };
 
+const mapStateToProps = ({ literals = { result: { male: 'boy'}} }) => ({ literals });
 const mapDispatchToProps = {
     updateLanguage: loadLiterals
 };
 
-export default connect(null, mapDispatchToProps)(Header);
+export default connect(mapStateToProps, mapDispatchToProps)(Header);
