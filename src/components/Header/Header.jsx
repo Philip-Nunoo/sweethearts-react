@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Container from '../Container/Container';
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
+import Container from '../Container/Container';
 import { loadLiterals } from '../../store/literals';
 import loadLang from '../../i18n';
 
@@ -16,9 +17,9 @@ const Header = props => {
         <header>
             {console.log('process.env.PUBLIC_URL', process.env.PUBLIC_URL)}
             <Container>
-                <a href="/" className="logo">
+                <Link to="/" className="logo">
                     <img src={require('../../images/camel-logo-2.png')} alt="logo" />
-                </a>
+                </Link>
                 <h1>Camel Calculator</h1>
                 <div className="lang-select">
                     <a
