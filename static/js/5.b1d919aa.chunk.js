@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{600:function(e){e.exports={header:{title:"Calculadora de camellos"},welcome:{message:"Aqu\xed puedes calcular cu\xe1ntos camellos vale tu novia o novio. Pero primero necesitamos algo de informaci\xf3n sobre la persona.",selectGirlfriend:"Cuantos camellos para tu novia",selectBoyfriend:"Cuantos camellos para tu novio"},result:{male:"Tu novio vale la pena",female:"Tu novia vale la pena"}}}}]);
+//# sourceMappingURL=5.b1d919aa.chunk.js.map

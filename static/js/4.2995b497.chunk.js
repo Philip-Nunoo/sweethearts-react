@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{599:function(e){e.exports={header:{title:"Camel Calculator"},welcome:{message:"Here you can calculate how many camels your girlfriend or boyfriend is worth. But first we need some information about the person.",selectGirlfriend:"How many camels for your girlfriend",selectBoyfriend:"How many camels for your boyfriend"},result:{male:"Your boyfriend is worth",female:"Your girlfriend is worth"}}}}]);
+//# sourceMappingURL=4.2995b497.chunk.js.map
