@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d718d17db0db749eb6444da90550f4e0",
+    "revision": "09814716996ef9c3d453f6528d0dfd2c",
     "url": "/sweethearts-react/index.html"
   },
   {
-    "revision": "7b4bd5e9b8c1e36a44a2",
+    "revision": "5133f96b746377868197",
     "url": "/sweethearts-react/static/css/main.23fbcf1f.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sweethearts-react/static/js/5.fe5895ff.chunk.js"
   },
   {
-    "revision": "7b4bd5e9b8c1e36a44a2",
-    "url": "/sweethearts-react/static/js/main.695cca1e.chunk.js"
+    "revision": "5133f96b746377868197",
+    "url": "/sweethearts-react/static/js/main.b891fb49.chunk.js"
   },
   {
     "revision": "44cfa35334fd998bb01e",
