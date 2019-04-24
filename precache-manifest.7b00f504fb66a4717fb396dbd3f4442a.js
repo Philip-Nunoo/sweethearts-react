@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a69defd4df84cc07622ee97debde217",
+    "revision": "ecc84da5d5962becbfe371c28d0bedb0",
     "url": "/sweethearts-react/index.html"
   },
   {
-    "revision": "e4c0f6e44c8d3cb18faa",
+    "revision": "9bd47ee3cdb3c9430a89",
     "url": "/sweethearts-react/static/css/main.23fbcf1f.chunk.css"
   },
   {
-    "revision": "adbdecccca4bb41cc7c4",
-    "url": "/sweethearts-react/static/js/2.d608dfb5.chunk.js"
+    "revision": "96fcb6ff3a2c150c9cda",
+    "url": "/sweethearts-react/static/js/2.c68db41d.chunk.js"
   },
   {
-    "revision": "e008c164a471f5622c2a",
-    "url": "/sweethearts-react/static/js/3.b2959092.chunk.js"
+    "revision": "6a3094e4e25801f7b6b1",
+    "url": "/sweethearts-react/static/js/3.30b88895.chunk.js"
   },
   {
-    "revision": "7b4bc5bc722ed69c072b",
-    "url": "/sweethearts-react/static/js/4.28a6039d.chunk.js"
+    "revision": "2525cc9ee545b548d126",
+    "url": "/sweethearts-react/static/js/4.81ecf763.chunk.js"
   },
   {
-    "revision": "41a65ef222270f24b23a",
-    "url": "/sweethearts-react/static/js/5.fe5895ff.chunk.js"
+    "revision": "340978418ee02b9e6b86",
+    "url": "/sweethearts-react/static/js/5.eb1166e9.chunk.js"
   },
   {
-    "revision": "e4c0f6e44c8d3cb18faa",
-    "url": "/sweethearts-react/static/js/main.10c93830.chunk.js"
+    "revision": "9bd47ee3cdb3c9430a89",
+    "url": "/sweethearts-react/static/js/main.7ddd23f5.chunk.js"
   },
   {
-    "revision": "44cfa35334fd998bb01e",
-    "url": "/sweethearts-react/static/js/runtime~main.191e6b94.js"
+    "revision": "839ca0a2ff5527e728dd",
+    "url": "/sweethearts-react/static/js/runtime~main.caa5a62e.js"
   },
   {
     "revision": "7aff14214fea8415c49190484d28ba8e",

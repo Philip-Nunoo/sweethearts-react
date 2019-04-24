@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{597:function(e){e.exports={welcome:{message:"Hier k\xf6nnen Sie berechnen, wie viele Kamele Ihre Freundin oder Ihr Freund wert ist. Aber zuerst brauchen wir Informationen \xfcber die Person.",selectGirlfriend:"Wie viele Kamele f\xfcr deine Freundin",selectBoyfriend:"Wie viele Kamele f\xfcr deinen Freund"},result:{male:"Dein Freund ist es wert",female:"Deine Freundin ist es wert"}}}}]);
+//# sourceMappingURL=3.30b88895.chunk.js.map
